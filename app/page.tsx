@@ -30,7 +30,7 @@ const page = async ()=>{
          pathname: '/memecreater',
          query: { url: item.url , id:item.id ,box_count:item.box_count },
         }}>
-      <button className="mt-2 w-full bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Meme Generate</button>
+      <button className="mt-2 w-full bg-black text-white px-4 py-2 rounded ">Meme Generate</button>
           </Link>
       </div>
             );
